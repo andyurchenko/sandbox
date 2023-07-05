@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+}
+
+.base {
+  width: 700px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 95px;
+  width: 520px;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.list-name {
+  font-weight: 700;
+  color: #424243;
+  padding: 10px 27px;
+  background-color: #E8C734;
+  display: inline-block;
+}
+
+.skill-list-element {
+  margin-top: 40px;
+}
+
+.bar {
+  margin-top: 18px;
+  border: 1px solid #BFC0C1;
+}
+
+.communication-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 400px,
+      #FFF 400px,
+      #FFF 520px
+    );
+}
+
+.creativity-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 460px,
+      #FFF 460px,
+      #FFF 520px
+    );
+}
+
+.teamwork-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 400px,
+      #FFF 400px,
+      #FFF 520px
+    );
+}
+
+.organization-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 460px,
+      #FFF 460px,
+      #FFF 520px
+    );
+}
+
+.leadership-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 400px,
+      #FFF 400px,
+      #FFF 520px
+    );
+}
+
+.teamplayer-bar {
+  height: 25px;
+  background:
+    linear-gradient(
+      to right,
+      #BFC0C1 0,
+      #BFC0C1 460px,
+      #FFF 460px,
+      #FFF 520px
+    );
+}

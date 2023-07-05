@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base {
+  max-width: 2000px;
+  height: 2000px;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("../images/bg-image_2000.png");
+}
+
+.main__header {
+  padding-top: 170px;
+  padding-bottom: 130px;
+  display: grid;
+  grid-template-columns: 1fr minmax(360px, 700px) 1fr;
+  grid-template-columns: 1fr 700px 1fr;
+  justify-items: center;
+}
+
+.main__header-rubric-name {
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 82px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+  grid-column: 2 / 3;
+}
+
+.main__header-rubric-description {
+  display: inline-block;
+  width: 700px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  text-align: center;
+  color: #798285;
+  grid-column: 2 / 3;
+}
+
+.section-record {
+  display: grid;
+  grid-template-columns: minmax(5px, 255px) minmax(190px, 600px) minmax(5px, 50px) minmax(500px, 840px) 1fr;
+}
+
+.section-record__left-part {
+  grid-column: 2 / 3;
+}
+
+.section-record__right-part {
+  grid-column: 4 / 5;
+}
+
+.section-record__album-year {
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #303030;
+}
+
+.section-record__album-year::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0%;
+  width: 100%;
+  height: 1px;
+  background-color: #303030;
+}
+
+.section-record__album-name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.section-record__album-part-description {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  color: #303030;
+  padding-bottom: 20px;
+}
+
+.section-record__album-full-description {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #798285;
+}
+
+.section-record__button-play {
+  margin-top: 20px;
+  width: 179px;
+  height: 50px;
+  background: #303030;
+  border-radius: 3px;
+  border-style: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.section-record + .section-record {
+  margin-top: 100px;
+}
+
+.main__footer {
+  height: 450px;
+  width: 100%;
+}
+
+@media screen and (max-width: 360px) {
+  .base {
+    width: 360px;
+    height: 2200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg-image_360.png");
+  }
+
+  .main__header {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 328px 1fr;
+    justify-items: center;
+  }
+
+  .main__header-rubric-name {
+    margin-bottom: 17px;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    width: 248px;
+  }
+
+  .main__header-rubric-description {
+    font-size: 14px;
+    line-height: 20px;
+    width: 328px;
+  }
+
+  .section-record {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  .section-record__left-part {
+    grid-row: 1 / 2;
+    margin-bottom: 25px;
+  }
+
+  .section-record__right-part {
+    grid-column: 2 / 3;
+  }
+
+  .section-record__album-year {
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 17px;
+    color: #303030;
+  }
+
+  .section-record__album-name {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .section-record__album-part-description {
+    font-size: 24px;
+  }
+
+  .section-record__album-full-description {
+    font-size: 14px;
+  }
+
+  .section-record__album-full-description + .section-record__album-full-description {
+    margin-top: 18px;
+  }
+
+  .section-record + .section-record {
+    margin-top: 60px;
+  }
+
+  .section-record__button-play {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout-correctness2 {
+    margin-top: 27px;
+  }
+}

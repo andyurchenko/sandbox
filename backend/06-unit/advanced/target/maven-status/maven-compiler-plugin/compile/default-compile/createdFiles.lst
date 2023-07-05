@@ -1,0 +1,11 @@
+it/sevenbits/servlet/UpgradedServlet.class
+it/sevenbits/servlet/InitRepositoryServlet.class
+it/sevenbits/servlet/model/TaskStatus.class
+it/sevenbits/servlet/dto/request/AddTaskRequestDto.class
+it/sevenbits/servlet/repository/Repository.class
+it/sevenbits/servlet/IndividualTaskTrackerServlet.class
+it/sevenbits/servlet/model/Task.class
+it/sevenbits/servlet/MultiTasksTrackerServlet.class
+it/sevenbits/servlet/HttpStatus.class
+it/sevenbits/servlet/repository/RepositoryImpl.class
+it/sevenbits/servlet/dto/request/UpdateTaskStatusRequestDto.class

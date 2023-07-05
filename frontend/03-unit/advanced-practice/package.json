@@ -1,0 +1,23 @@
+{
+  "name": "03-homework",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint ./src/scripts/index.js --max-warnings=0", 
+    "lint:fix": "eslint --fix ./src/scripts/index.js"
+  },
+  "devDependencies": {
+    "eslint": "~8.23.0",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.7bits.it/it-lift-courses/2022-2023/development/7bits-frontend-courses.git"
+  },
+  "author": "7bits",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.7bits.it/it-lift-courses/2022-2023/development/7bits-frontend-courses/-/issues"
+  },
+  "homepage": "https://gitlab.7bits.it/it-lift-courses/2022-2023/development/7bits-frontend-courses"
+}

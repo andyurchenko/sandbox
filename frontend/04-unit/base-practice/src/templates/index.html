@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Gallery Post</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+	<link href="../styles/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class = "form-container">
+    <div class = "greeting-container">
+      <h1 class = "greeting-container__greeting">Давайте начнем!</h1> 
+    </div>
+      
+    <form class = "form" id = "form">
+      <div class = "form__section">
+        <label class = "form__label" for = "first-name">Имя</label>
+        <input class = "form__input" type = "text" name = "first-name" id = "first-name" placeholder = "Иван" tabindex = "1">
+      </div>
+
+      <div class = "form__section">
+        <label class = "form__label" for = "second-name">Фамилия</label>
+        <input class = "form__input" type = "text" name = "second-name" id = "second-name" placeholder = "Иванов" tabindex = "2">
+      </div>
+
+      <div class = "form__section">
+        <label class = "form__label" for = "email">Email</label>
+        <input class = "form__input" type = "email" name = "email" id="email" placeholder = "example@mail.com" tabindex = "3">
+      </div>
+
+      <div class = "form__section">
+        <label class = "form__label" for = "password">Пароль</label>
+        <input class = "form__input" type = "password" name = "password" id = "password" placeholder = "Пароль" tabindex = "4">
+      </div>
+
+      <span class = "form__radio-button-list-header form__label">Ваш пол</span>
+      <div class = "form__radio-button-list">
+        <label class = "form__radio-button-label form__radio-button-item" for="woman">
+          <input class = "form__radio-button-input" id="woman" type = "radio" name = "sex" value = "woman" checked tabindex = "5"/>
+          Женский
+        </label>
+
+        <label class = "form__radio-button-label form__radio-button-item" for="man">
+          <input class = "form__radio-button-input" id="man" type = "radio" name = "sex" value = "man"/>
+          Мужской
+        </label>
+      </div>
+
+      <div class="form__terms-of-use-container">
+        <label class = "form__terms-of-use-label" for = "agreed">
+          <input class = "form__terms-of-use-input" type = "checkbox" id = "agreed" name = "terms-of-use-container__input" value="true" tabindex = "6">
+          Я принимаю условия Пользовательского соглашения и даю своё согласие на обработку моих персональных данных 
+          на условиях, определенных Политикой конфиденциальности.
+        </label>
+      </div>
+      <button class = "form__button-submit" type = "submit" form = "form" value = "Submit">Зарегистрироваться</button>
+    </form>
+  </div>
+</body>
+</html>

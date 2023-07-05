@@ -1,0 +1,94 @@
+{
+{//comment comment
+}
+}
+public {       //comment comment
+    if(a) { //comment comment
+        Lexer lexer = new Lexer();
+            //comment comment
+        lexer.writeToFile();
+        Token token = new Token();
+/*
+    comment
+    comment
+*/
+        token.writeToFile();
+        Formatter formatter = new Formatter();
+        formatter.writeToFile();
+        if(a == 42) {//comment comment
+            Lexer lexer = new Lexer();      //comment comment
+            lexer.writeToFile(); //comment comment
+            Token token = new Token();   //comment comment
+            token.writeToFile(); /*
+comment
+    many
+        lines
+                    */
+
+            //comment коммент comment
+            Formatter formatter = new Formatter();
+            formatter.writeToFile();//comment comment
+        }    //comment коммент comment
+    }//comment коммент comment
+    if(a == 42) {//comment comment
+        Lexer lexer = new Lexer();//comment коммент comment
+        lexer.writeToFile();
+//comment коммент comment
+        Token token = new Token();
+        token.writeToFile();
+        //comment коммент comment
+        Formatter formatter = new Formatter();
+
+
+
+        formatter.writeToFile();
+    }
+}
+{{{{{}}}}}
+
+{
+{
+{
+
+}
+}
+}
+
+{
+
+    {
+  {}
+    }}
+
+public {       //comment comment
+if(a) { //comment comment
+Lexer lexer = new Lexer();
+lexer.writeToFile();
+Token token = new Token();
+token.writeToFile();
+Formatter formatter = new Formatter();
+formatter.writeToFile();
+if(a == 42) {//comment comment
+Lexer lexer = new Lexer();      //comment comment
+lexer.writeToFile(); //comment comment
+Token token = new Token();   //comment comment
+token.writeToFile();
+//comment коммент comment
+Formatter formatter = new Formatter();
+formatter.writeToFile();//comment comment
+}
+}
+if(a == 42) {//comment comment
+Lexer lexer = new Lexer();//comment коммент comment
+lexer.writeToFile();
+
+
+//comment коммент comment
+
+Token token = new Token();
+token.writeToFile();
+//comment коммент comment
+Formatter formatter = new Formatter();
+formatter.writeToFile();
+}
+}

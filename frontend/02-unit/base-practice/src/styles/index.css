@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+.base {
+  width: 472px;
+  height: 650px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.main-img {
+  display: block;
+}
+
+.post-card {
+  width: 360px;
+  height: 555px;
+  background: #FFF;
+  box-shadow: 0 2px 30px rgba(21 20 53 / 30%);
+}
+
+.post-card-top-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.little-black-rectangle {
+  width: 42px;
+  height: 32px;
+  background-image: url("../images/icon.png");
+  position: relative;
+  bottom: 16px;
+}
+
+.post-card-middle-part {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.adventures {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  height: 19px;
+  width: 112px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.awesome-gallery-post {
+  margin-top: 15px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #35353C;
+  height: 24px;
+}
+
+.date {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+a.read-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #999;
+  margin-top: 46px;
+  position: relative;
+}
+
+a.read-more::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 36px;
+  height: 1px;
+  background-color: #D6D6D6;
+}
+
+a.read-more::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 36px;
+  height: 1.5px;
+  background-color: #D6D6D6;
+}
+
+a.read-more:hover {
+  color: #FF835B;
+}
+
+a.read-more:hover::after,
+a.read-more:hover::before {
+  background-color: #FF835B;
+}
+
+.post-card-bottom-part {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  height: 55px;
+  width: 100%;
+  border-top: 1px solid #F5F5F5;
+}
+
+.comment-img {
+  width: 24px;
+  height: 24px;
+  margin-left: 27px;
+}
+
+.comments {
+  margin-left: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+}

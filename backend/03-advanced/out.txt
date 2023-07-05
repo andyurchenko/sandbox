@@ -1,0 +1,79 @@
+03-advanced
+   .idea
+      compiler.xml rw-rw-r--
+      .gitignore rw-rw-r--
+      encodings.xml rw-rw-r--
+      checkstyle-idea.xml rw-rw-r--
+      intellij-javadocs-4.0.1.xml rw-rw-r--
+      jarRepositories.xml rw-rw-r--
+      workspace.xml rw-rw-r--
+      misc.xml rw-rw-r--
+   pom.xml rw-rw-r--
+   advanced.iml rw-rw-r--
+   out.txt rw-rw-r--
+   target
+      classes
+         it
+            sevenbits
+               Main.class rw-rw-r--
+               directory
+                  analyzer
+                     file
+                        tools
+                           FileTools.class rw-rw-r--
+                           intend
+                              Intend.class rw-rw-r--
+                           WriterToFile.class rw-rw-r--
+                        visitor
+                           FileVisitor.class rw-rw-r--
+                     DirectoryAnalyzer.class rw-rw-r--
+      generated-sources
+         annotations
+      checkstyle-checker.xml rw-rw-r--
+      site
+         checkstyle.rss rw-rw-r--
+         images
+            rss.png rw-rw-r--
+         checkstyle.html rw-rw-r--
+      checkstyle-result.xml rw-rw-r--
+      maven-archiver
+         pom.properties rw-rw-r--
+      maven-status
+         maven-compiler-plugin
+            compile
+               default-compile
+                  inputFiles.lst rw-rw-r--
+                  createdFiles.lst rw-rw-r--
+            testCompile
+               default-testCompile
+                  inputFiles.lst rw-rw-r--
+      checkstyle-cachefile rw-rw-r--
+   src
+      main
+         resources
+         java
+            package-info.java rw-rw-r--
+            it
+               sevenbits
+                  Main.java rw-rw-r--
+                  package-info.java rw-rw-r--
+                  directory
+                     analyzer
+                        DirectoryAnalyzer.java rw-rw-r--
+                        file
+                           tools
+                              WriterToFile.java rw-rw-r--
+                              package-info.java rw-rw-r--
+                              FileTools.java rw-rw-r--
+                              intend
+                                 Intend.java rw-rw-r--
+                                 package-info.java rw-rw-r--
+                           visitor
+                              FileVisitor.java rw-rw-r--
+                              package-info.java rw-rw-r--
+                           package-info.java rw-rw-r--
+                        package-info.java rw-rw-r--
+                     package-info.java rw-rw-r--
+      test
+         java
+   7bits-checkstyle.xml rw-r--r--

@@ -1,0 +1,47 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["airbnb-base"],
+  "rules": {
+    "import/prefer-default-export": 0,
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "no-underscore-dangle": 0,
+    "comma-dangle": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "class-methods-use-this": 0,
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}

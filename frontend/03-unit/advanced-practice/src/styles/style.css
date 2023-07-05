@@ -1,0 +1,239 @@
+:root {
+  --font-default: helvetica, sans-serif;
+
+  --color-white: #FFF;
+  --color-dark-blue: #244F92;
+  --color-blue: #446EAF;
+  --color-lightest-grey: #F3F2F2;
+  --color-light-grey: #D2D2D2;
+  --color-grey: #A4A4A7;
+  --color-dark-grey: #404044;
+  --color-lightest-yellow: #FFFCEB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: var(--color-blue);
+  font-family: var(--font-default);
+  position: relative;
+  z-index: 10;
+}
+
+.header__content {
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 70px 100px 100px;
+  box-sizing: border-box;
+  background-color: #E2E5FF;
+  font-family: var(--font-default);
+  box-shadow: 0 0 25px 0 rgba(0 0 0 / 30%);
+}
+
+.article {
+  margin-bottom: 40px;
+}
+
+.article:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: var(--color-blue);
+  padding: 45px 0;
+  font-family: var(--font-default);
+}
+
+.footer__content {
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-dark-blue);
+}
+
+.pokemon_div_container {
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  width: 560px;
+  background: #FFF;
+  border: 2px solid #7BAFFF;
+  border-radius: 5px;
+}
+
+.pokemon_div_container:hover {
+  border-color: #244F92;
+}
+
+.pokemon_div_container:active {
+  background-color: #F3F2F2;
+  box-shadow: 0 0 20px rgba(0 0 0 / 25%);
+}
+
+.pokemon_left_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 45px 25px 50px;
+}
+
+.pokemon_image {
+  display: block;
+  height: 140px;
+  width: 140px;
+}
+
+.pokemon_name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 42px;
+  color: #244F92;
+}
+
+.pokemon_rigth_div {
+  margin-top: 25px;
+}
+
+.pokemon_abilities_caption {
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #244F92;
+}
+
+.pokemon_abilities_ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon_abilities_li {
+  display: inline-block;
+  padding: 8px 25px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFF;
+  background-color: #7BAFFF;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pokemon_abilities_li:hover {
+  background-color: #244F92;
+}
+
+.preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+  transition: all 0.5s ease-out;
+}
+
+.preloader--hide {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.preloader hr {
+  border: 0;
+  margin: 0;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  border-radius: 50%;
+  animation: spin 2s ease infinite;
+}
+
+.preloader :first-child {
+  background: #19A68C;
+  animation-delay: -1.5s;
+}
+
+.preloader :nth-child(2) {
+  background: #F63D3A;
+  animation-delay: -1s;
+}
+
+.preloader :nth-child(3) {
+  background: #FDA543;
+  animation-delay: -0.5s;
+}
+
+.preloader :last-child {
+  background: #193B48;
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(160%);
+  }
+
+  50% {
+    transform: translate(160%, 160%);
+  }
+
+  75% {
+    transform: translate(0, 160%);
+  }
+}

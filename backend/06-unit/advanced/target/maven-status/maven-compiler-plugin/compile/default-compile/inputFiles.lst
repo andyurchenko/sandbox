@@ -1,0 +1,15 @@
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/repository/RepositoryImpl.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/InitRepositoryServlet.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/IndividualTaskTrackerServlet.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/model/package-info.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/model/Task.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/HttpStatus.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/repository/package-info.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/dto/request/UpdateTaskStatusRequestDto.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/dto/request/AddTaskRequestDto.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/MultiTasksTrackerServlet.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/UpgradedServlet.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/package-info.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/model/TaskStatus.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/dto/request/package-info.java
+/home/andrew/GIT/7bits/backend/06-unit/advanced/TaskTrackerSimpleServlet/src/main/java/it/sevenbits/servlet/repository/Repository.java

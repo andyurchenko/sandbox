@@ -1,0 +1,132 @@
+:root {
+  /* Fonts */
+  --font-default: helvetica, sans-serif;
+
+  /* Colors */
+  --color-white: #FFF;
+  --color-dark-blue: #244F92;
+  --color-blue: #446EAF;
+  --color-lightest-grey: #F3F2F2;
+  --color-light-grey: #D2D2D2;
+  --color-grey: #A4A4A7;
+  --color-dark-grey: #404044;
+  --color-lightest-yellow: #FFFCEB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-lightest-grey);
+}
+
+.header {
+  background-color: var(--color-blue);
+  font-family: var(--font-default);
+  position: relative;
+  z-index: 10;
+}
+
+.header__content {
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 100px 100px;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  font-family: var(--font-default);
+  box-shadow: 0 0 25px 0 rgba(0 0 0 / 30%);
+}
+
+.article {
+  margin-bottom: 40px;
+}
+
+.article:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: var(--color-blue);
+  padding: 45px 0;
+  font-family: var(--font-default);
+}
+
+.footer__content {
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-dark-blue);
+}
+
+.item__title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #244F92;
+}
+
+.item__description {
+  padding-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000;
+  width: 540px;
+  position: relative;
+}
+
+.item__description::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 540px;
+  height: 2px;
+  background-color: #A4A4A7;
+}

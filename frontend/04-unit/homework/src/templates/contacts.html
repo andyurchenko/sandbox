@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>02-homework</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="../styles/index.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../scripts/index.js"></script>
+</head>
+<body class = "body">
+  <div class="strange-blue-border"></div>
+  <header class = "header">
+    <div class="header__content top-log-nav">
+      <a class = "top-log-nav__item1 logo lato-italic-700 " href = "#" >Palo Alto</a>
+      <nav class="top-log-nav__item2 top-nav">
+        <a class = "top-nav__items top-nav__item1 lato-normal-700" href = "./index.html">home</a>
+        <a class = "top-nav__items top-nav__item2 lato-normal-700" href = "#">about</a>
+        <a class = "top-nav__items top-nav__item3 lato-normal-700" href = "#">archive</a>
+        <a class = "top-nav__items top-nav__item4 lato-normal-700 top-nav__current-link" href = "#">contact</a>
+        <a class = "top-nav__item5 top-nav__magnifying-glass" href = "#">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M15.533 15.533C14.947 16.119 13.998 16.119 13.412 15.533L10.764 12.885C9.676 13.583 8.389 14 7 14C3.134 14 0 10.866 0 7C0 3.134 3.134 0 7 0C10.866 0 14 3.134 14 7C14 8.389 13.583 9.675 12.886 10.764L15.533 13.412C16.119 13.998 16.119 14.947 15.533 15.533ZM7 2C4.239 2 2 4.239 2 7C2 9.761 4.239 12 7 12C9.762 12 12 9.761 12 7C12 4.239 9.762 2 7 2Z" fill="currentcolor"/>
+          </svg>
+        </a>
+      </nav>
+      <nav class="top-log-nav__dropdown-menu">
+        <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 1.5H0V0H24V1.5ZM24 13.5H0V12H24V13.5ZM24 7.488H0V6H24V7.488Z" fill="#5C6BC0"/>
+        </svg>
+      </nav>
+    </div>
+  </header>
+
+  <div class = "main">
+    <main class = "main__content">
+      <div class = "article">
+        <div class="article__content">
+          <p class="article__subject">Contact Info</p>
+          <p class="article__additional-info">
+            Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.
+          </p>
+            <form class="form" onsubmit="send(event)">
+            <input class = "form__input form__input-name" type = "text" name = "name" placeholder = "Your name" tabindex = "1" id="form-name">
+            <input class = "form__input form__input-email" type = "email" name = "email" placeholder = "Email" tabindex = "2" id="form-email">
+            <input class = "form__input form__input-subject" type = "text" name = "subject" placeholder = "Subject" tabindex = "3" id="form-subject">
+            <textarea class = "form__input form__input-message" name="message" cols="30" rows="10" placeholder = "Your message" tabindex = "4" id="form-message"></textarea>
+            <button class = "form__button" type = "submit">SEND MESSAGE</button>
+            <input class = "form__reset" type = "reset" id = "form-reset">
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class = "footer">
+    <div class="footer__content">
+    <p class = "footer__site_name lato-italic-700">Palo Alto</p>
+    <nav class = "footer__navigation navigation-bottom lato-normal-700">
+      <a class = "navigation-bottom__link lato-normal-700" href = "#">home</a>
+      <a class = "navigation-bottom__link lato-normal-700" href = "#">about</a>
+      <a class = "navigation-bottom__link lato-normal-700" href = "#">archive</a>
+      <a class = "navigation-bottom__link lato-normal-700" href = "#">contact</a>
+      <a href = "#" class = "navigation-bottom__magnifying-glass">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.533 15.533C14.947 16.119 13.998 16.119 13.412 15.533L10.764 12.885C9.676 13.583 8.389 14 7 14C3.134 14 0 10.866 0 7C0 3.134 3.134 0 7 0C10.866 0 14 3.134 14 7C14 8.389 13.583 9.675 12.886 10.764L15.533 13.412C16.119 13.998 16.119 14.947 15.533 15.533ZM7 2C4.239 2 2 4.239 2 7C2 9.761 4.239 12 7 12C9.762 12 12 9.761 12 7C12 4.239 9.762 2 7 2Z" fill="currentcolor"/>
+        </svg>
+      </a>
+    </nav>
+    <div class = "footer-border-line"></div>
+    <p class = "footer-strange-text lato-normal-400">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.</p>
+    <div class = "footer-border-line"></div>
+    <p class = "footer-rights-text lato-normal-400">
+      © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by 
+      <a class = "created-by" href = "#">PixelBuddha Team </a>
+    </p>
+    <nav class = "navigation-bottom__socials social-links lato-normal-700">
+      <ul>
+        <li>
+          <a class = "social-links__item facebook" href = "#">
+            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.327 21.983H1.697C0.76 21.983 0 21.295 0 20.359V1.693C0 0.758 0.76 0 1.697 0H20.327C21.264 0 22.024 0.758 22.024 1.693V20.359C22.024 21.295 21.264 21.983 20.327 21.983ZM8.863 4.241C7.857 4.241 7.421 4.401 6.764 4.722C6.106 5.042 5.632 5.609 5.387 6.118C5.142 6.628 5.02 7.248 5.02 8.282V9.29H3.002V11.963H5.02V19.995H8.004V11.963H10.722L11.33 9.29H8.004V8.339C8.004 7.715 8.117 7.292 8.345 7.072C8.573 6.852 9.546 6.721 10.07 6.721C10.603 6.721 11.03 6.968 11.568 7.282L12.21 4.86C11.222 4.582 9.894 4.241 8.863 4.241Z" fill="currentcolor"/>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class = "social-links__item facebook" href = "#">
+            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.327 21.983H1.697C0.76 21.983 0 21.295 0 20.359V1.693C0 0.758 0.76 0 1.697 0H20.327C21.264 0 22.024 0.758 22.024 1.693V20.359C22.024 21.295 21.264 21.983 20.327 21.983ZM8.863 4.241C7.857 4.241 7.421 4.401 6.764 4.722C6.106 5.042 5.632 5.609 5.387 6.118C5.142 6.628 5.02 7.248 5.02 8.282V9.29H3.002V11.963H5.02V19.995H8.004V11.963H10.722L11.33 9.29H8.004V8.339C8.004 7.715 8.117 7.292 8.345 7.072C8.573 6.852 9.546 6.721 10.07 6.721C10.603 6.721 11.03 6.968 11.568 7.282L12.21 4.86C11.222 4.582 9.894 4.241 8.863 4.241Z" fill="currentcolor"/>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class = "social-links__item twitter" href = "#">
+            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.308 0.00116724C18.214 -0.0328328 19.228 0.680167 20.196 1.58717C21.018 1.51517 22.087 1.04317 22.716 0.714167C22.92 0.600167 23.124 0.485167 23.328 0.370167C22.969 1.36817 22.481 2.15017 21.732 2.74317C21.566 2.87517 21.401 3.05217 21.192 3.13617C21.192 3.14017 21.192 3.14417 21.192 3.14817C22.26 3.13717 23.14 2.64317 23.976 2.37417C23.976 2.37817 23.976 2.38217 23.976 2.38717C23.537 3.10417 22.943 3.83217 22.308 4.35317C22.052 4.56317 21.796 4.77117 21.54 4.98017C21.554 6.14217 21.524 7.25017 21.312 8.22617C20.084 13.9002 16.829 17.7512 11.676 19.4022C9.826 19.9942 6.836 20.2372 4.716 19.6962C3.665 19.4282 2.715 19.1262 1.824 18.7252C1.329 18.5032 0.869999 18.2622 0.431999 17.9872C0.287999 17.8982 0.144 17.8072 0 17.7172C0.478 17.7312 1.037 17.8672 1.572 17.7782C2.055 17.6982 2.53 17.7192 2.976 17.6182C4.089 17.3682 5.077 17.0362 5.928 16.5252C6.34 16.2762 6.967 15.9852 7.26 15.6272C6.707 15.6372 6.206 15.5062 5.796 15.3572C4.205 14.7792 3.278 13.7182 2.676 12.1232C3.158 12.1772 4.547 12.3072 4.872 12.0242C4.265 11.9902 3.681 11.6292 3.264 11.3612C1.984 10.5382 0.939998 9.15817 0.947998 7.03417C1.116 7.11517 1.284 7.19817 1.452 7.27917C1.773 7.41917 2.1 7.49317 2.484 7.57417C2.646 7.60817 2.97 7.70617 3.156 7.63617C3.148 7.63617 3.14 7.63617 3.132 7.63617C2.884 7.33917 2.481 7.14217 2.232 6.82417C1.411 5.77617 0.640998 4.16117 1.128 2.23917C1.251 1.75117 1.447 1.32017 1.656 0.923167C1.664 0.927167 1.672 0.931167 1.68 0.936167C1.775 1.14217 1.989 1.29317 2.124 1.46417C2.543 1.99817 3.061 2.47917 3.588 2.90217C5.384 4.34617 7.002 5.23317 9.6 5.89017C10.259 6.05717 11.021 6.18417 11.808 6.18517C11.587 5.52317 11.658 4.45317 11.832 3.81217C12.27 2.20217 13.221 1.04117 14.616 0.419167C14.95 0.270167 15.32 0.162167 15.708 0.0751672C15.908 0.0501672 16.108 0.0261672 16.308 0.00116724Z" fill="currentcolor"/>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class = "social-links__item instagram" href = "#">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.271 21.98H2.707C1.212 21.98 0 20.767 0 19.272V2.708C0 1.213 1.212 0 2.707 0H19.271C20.766 0 21.978 1.213 21.978 2.708V19.272C21.978 20.767 20.766 21.98 19.271 21.98ZM10.989 6.985C9.378 6.985 7.99299 7.939 7.35699 9.311H7.354C7.347 9.325 7.343 9.341 7.336 9.355C7.298 9.44 7.26399 9.527 7.23199 9.615C7.21699 9.656 7.2 9.698 7.186 9.74C7.157 9.829 7.133 9.922 7.109 10.014C7.099 10.057 7.086 10.099 7.076 10.144C7.055 10.241 7.04 10.341 7.027 10.441C7.021 10.481 7.013 10.52 7.008 10.562C6.993 10.703 6.985 10.845 6.985 10.99C6.985 13.202 8.777 14.994 10.989 14.994C13.201 14.994 14.993 13.202 14.993 10.99C14.993 10.845 14.985 10.703 14.97 10.562C14.965 10.52 14.957 10.481 14.951 10.441C14.938 10.341 14.923 10.241 14.902 10.144C14.892 10.099 14.879 10.057 14.869 10.014C14.845 9.922 14.821 9.829 14.792 9.74C14.778 9.698 14.761 9.656 14.746 9.615C14.714 9.527 14.68 9.44 14.642 9.355C14.635 9.341 14.631 9.325 14.624 9.311H14.621C13.985 7.939 12.6 6.985 10.989 6.985ZM18.998 4.069C18.998 3.47 18.513 2.985 17.915 2.985H17.042C16.444 2.985 15.959 3.47 15.959 4.069V4.906C15.959 5.504 16.444 5.989 17.042 5.989H17.915C18.513 5.989 18.998 5.504 18.998 4.906V4.069ZM19.967 9.001H16.699C16.853 9.562 17.041 10.433 17.041 11.043C17.041 14.707 13.963 17.037 10.989 17.037C7.945 17.037 4.942 14.707 4.942 11.043C4.942 10.433 5.157 9.562 5.311 9.001L2.016 8.97V18.885C2.016 19.483 2.501 19.968 3.099 19.968H18.884C19.482 19.968 19.967 19.483 19.967 18.885V9.001Z" fill="currentcolor"/>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class = "social-links__item pinterest" href = "#">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.989 0C4.92 0 0 4.92 0 10.989C0 15.512 2.734 19.397 6.638 21.084C6.61 20.318 6.63699 19.404 6.83099 18.576C7.04399 17.682 8.252 12.566 8.252 12.566C8.252 12.566 7.899 11.862 7.899 10.821C7.899 9.188 8.847 7.966 10.026 7.966C11.029 7.966 11.514 8.721 11.514 9.623C11.514 10.631 10.871 12.139 10.539 13.536C10.264 14.706 11.128 15.661 12.282 15.661C14.37 15.661 15.776 12.977 15.776 9.796C15.776 7.38 14.15 5.57 11.188 5.57C7.844 5.57 5.757 8.065 5.757 10.852C5.757 11.813 6.04199 12.492 6.48599 13.015C6.68999 13.256 6.71801 13.353 6.64301 13.631C6.59001 13.833 6.471 14.321 6.42 14.516C6.347 14.795 6.119 14.893 5.867 14.791C4.327 14.163 3.608 12.475 3.608 10.578C3.608 7.445 6.251 3.688 11.491 3.688C15.703 3.688 18.474 6.736 18.474 10.005C18.474 14.334 16.068 17.565 12.523 17.565C11.332 17.565 10.211 16.921 9.82899 16.192C9.82899 16.192 9.18699 18.73 9.05299 19.222C8.82099 20.06 8.37501 20.897 7.96201 21.556C8.92201 21.831 9.938 21.978 10.989 21.978C17.058 21.978 21.978 17.058 21.978 10.989C21.978 4.92 17.058 0 10.989 0Z" fill="currentcolor"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </footer>
+</body>
+</html>   

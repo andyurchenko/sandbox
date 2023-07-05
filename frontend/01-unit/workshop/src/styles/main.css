@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  width: 1400px;
+  height: 1600px;
+}
+
+.header {
+  margin: 0 85px;
+  padding: 120px 0 100px;
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.header__title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #424243;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.contacts__element {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.contacts__link {
+  color: #9C9C9C;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.main {
+  margin: 50px 0 0 85px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main__img {
+  margin-bottom: 40px;
+}
+
+.main__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #424243;
+  background: #E8C734;
+  padding: 10px 40px;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.main__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #424243;
+  width: 425px;
+  margin-bottom: 465px;
+}
+
+.main__text--bold {
+  font-weight: 700;
+}
+
+.footer {
+  background: #E8C734;
+  height: 45px;
+}
+
+.experience {
+  padding: 10px 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #424243;
+  background-color: #E8C734;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 50px;
+}
+
+.main__right {
+  margin-left: 80px;
+}
+
+.worked-from-to {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #9C9C9C;
+  margin-bottom: 25px;
+}
+
+.job-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #424243;
+  margin-bottom: 5px;
+}
+
+.job-company-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #424243;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.job-company-name-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  color: #424243;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.job-descrition {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9C9C9C;
+}
+
+.experience-block {
+  margin-bottom: 60px;
+}

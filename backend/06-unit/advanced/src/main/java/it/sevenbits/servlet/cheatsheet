@@ -1,0 +1,9 @@
+http://127.0.0.1:8080/test/tasks
+
+GET response in MultiTaskTrackerGET response in MultiTaskTracker
+req.getPathInfo() = null
+req.getRequestURI() = /test/tasks
+req.getRequestURL() = http://127.0.0.1:8080/test/tasks
+req.getContextPath() = /test
+req.getPathTranslated() = null
+req.getServletPath() = /tasks
