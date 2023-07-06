@@ -1,6 +1,7 @@
 # sandbox
 <h3>Код, написанный в процессе обучения.</h3>
-<h4>backend:</h4>
+<h4>7bits</h4>
+<h5>backend:</h5>
 <ul>
   <li>
     Unit 1. Git, Linux, Base Java
@@ -24,7 +25,7 @@
     Unit 7. Nginx, Spring Boot Testing
   </li>
 </ul>
-<h4>frontend:</h4>
+<h5>frontend:</h5>
 <ul>
   <li>
     Unit 1. HTML, CSS and JavaScript Introduction
@@ -39,7 +40,15 @@
     Unit 4. HTML Forms, Responsive design, BEM, Accessibility
   </li>
 </ul>
-      
+<h4>Thumbtack/Lineate(в процессе обучения)</h4>
+<h5>backend:</h5>
+<ul>
+   <li>SQL и JDBC</li>
+  <li>Логгинг</li>
+  <li>MyBatis</li>
+  <li>Введение в функциональное программирование</li>
+  <li>Программирование многопоточных приложений</li>
+</ul>
       
       
       
